@@ -17,6 +17,7 @@
   --color-warm-soft: #f3e3d3;
 }
 
+
 @layer base {
   html {
     color-scheme: light;
