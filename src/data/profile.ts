@@ -1,3 +1,5 @@
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
 export const profile = {
   name: "Bharath Kumar Taddi",
   role: "Associate Product Engineer",
@@ -26,7 +28,7 @@ export const milestones: Milestone[] = [
     title: "Junior Cybersecurity Analyst",
     description:
       "Joined ThreatSense AI as a Junior Cybersecurity Analyst and started building an endpoint agent in C++ that runs silently on a device and enforces policy set by an organization.",
-    illustration: "/timeline/cybersecurity.svg",
+    illustration: asset("timeline/cybersecurity.svg"),
   },
   {
     date: "2025",
@@ -34,7 +36,7 @@ export const milestones: Milestone[] = [
     title: "Dashboard development",
     description:
       "Moved into full-stack development — Node.js, TypeScript, React, Tailwind CSS — building admin dashboards that give teams visibility into systems running elsewhere.",
-    illustration: "/timeline/dashboard.svg",
+    illustration: asset("timeline/dashboard.svg"),
   },
   {
     date: "2025",
@@ -42,7 +44,7 @@ export const milestones: Milestone[] = [
     title: "AWS deployment & technical leadership",
     description:
       "Deployed and managed production services on AWS, containerized with Docker and shipped through CI/CD on Git. Stepped into a technical lead role — Associate Product Engineer — assigning and reviewing work for a small team.",
-    illustration: "/timeline/cloud.svg",
+    illustration: asset("timeline/cloud.svg"),
   },
   {
     date: "2025",
@@ -50,7 +52,7 @@ export const milestones: Milestone[] = [
     title: "Browser extension development",
     description:
       "Built browser extensions for endpoint-layer security, and learned to publish across Chrome and Edge — each with its own submission and review process.",
-    illustration: "/timeline/extension.svg",
+    illustration: asset("timeline/extension.svg"),
   },
   {
     date: "2025",
@@ -58,14 +60,14 @@ export const milestones: Milestone[] = [
     title: "Compliance-driven product design",
     description:
       "Started applying data-protection regulation — including frameworks like India's DPDPA — to product requirements.",
-    illustration: "/timeline/compliance.svg",
+    illustration: asset("timeline/compliance.svg"),
   },
   {
     date: "Ongoing",
     tag: "Systems programming",
     title: "macOS agent development",
     description: "Extended endpoint agent development to macOS, alongside the existing agent.",
-    illustration: "/timeline/laptop.svg",
+    illustration: asset("timeline/laptop.svg"),
   },
 ]
 
