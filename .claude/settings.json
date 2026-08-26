@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\",\"User\"\\); $scratch = \"C:\\\\Users\\\\bhara\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--portfolio\\\\20d51e28-5db4-40e7-bde1-02b0ca20c7c8\\\\scratchpad\"; Set-Location $scratch; npm create vite@latest vite-ts-tmp -- --template react-ts)"
+    ]
+  }
+}
